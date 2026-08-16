@@ -4,7 +4,7 @@
 
 Human-in-the-loop systems · Python · Data quality · Technical operations
 
-I build practical AI and automation systems that turn operational workflows into explicit rules, inspectable outputs, and clear human handoffs. My technical-operations and data-quality background shapes how I approach reliability, integration, and failure handling—not just the happy path.
+I build practical AI and automation systems that turn operational workflows into explicit rules, inspectable outputs, and clear human handoffs. My technical-operations and data-quality background shapes how I approach reliability, integration, and failure handling; not just the happy path.
 
 ## Selected work
 
