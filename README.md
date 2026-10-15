@@ -1,33 +1,31 @@
 # Brandon Metcalf
 
-### Applied AI & Workflow Automation Engineer
+### Applied AI · Product Development · Workflow Automation
 
-Human-in-the-loop systems · Python · Data quality · Technical operations
+I turn messy workflows into working tools. My background is in technical operations and data quality, with a B.S. in Computer Science.
 
-I build practical AI and automation systems that turn operational workflows into explicit rules, inspectable outputs, and clear human handoffs. My technical-operations and data-quality background shapes how I approach reliability, integration, and failure handling.
+Most of my work now runs like a small product team with AI agents as the engineers: I decide what to build and what to cut, and the agents build it inside a system I designed and use every day.
 
-## Selected work
+## Recent work (private repos)
 
-These personal portfolio labs use synthetic data or sanitized operational evidence.
+- **WhatsApp assistant and staff console for an orthodontic practice.** The owner wanted it to feel like talking to a person but never get a price wrong. Rules built from the owner's manuals and price lists decide what it can say, an LLM only writes the wording, and a final check rejects any price it finds that wasn't approved for that answer. When an earlier full rewrite stalled, an audit showed it was rebuilding parts that already worked; I narrowed the work to the missing piece, natural replies, and the new version was built, reviewed and on a test server the same day. It's validated against scenarios built from the owner's documents and 800+ automated tests, and staff review conversations, assign follow-up and keep notes in a separate console.
+- **Grocery price comparison for Argentina.** I'm building a free, phone-first page that compares supermarket prices using the government's daily price data. A quick spike showed some chains' promotions can't be read publicly, so the first version shows their shelf prices and leaves those offers for later instead of waiting on them.
+- **The system my agents work in.** Work moves through a task board, with written rules for what agents can do on their own and what has to come to me: spending, credentials, private data, anything public. Review scales with risk, from one independent reviewer at a different AI company for routine changes up to a three-company panel for critical ones. A change isn't done until it's installed and verified on each machine. I'm running two versions side by side, one with custom integrations and one built only from maintained tools and plugins, to see which custom pieces are worth their upkeep.
 
-| Project | What it demonstrates |
+Source code and client material for these stay private. Happy to walk through any of them.
+
+## Team experience
+
+On a four-person Oregon State capstone team for [InvestorMatch.ai](https://investormatch.ai/), I built FastAPI endpoints for the submission forms, storing data in PostgreSQL, and led the final technical report.
+
+## Public code
+
+These portfolio projects use synthetic data or sanitized examples.
+
+| Project | What it does |
 | --- | --- |
-| **[Support Operations Workflow Pack](https://github.com/bmetcalf21/support-qa-evidence-pack)** | Provider-neutral document retrieval, inspectable context assembly, a local model-command path, response guardrails, explicit human escalation, and a tested scorer for a bounded support assistant. |
-| **[Data Integrity Validator](https://github.com/bmetcalf21/data-integrity-validator)** | A Python/pandas CLI for normalization, validation, deduplication, referential-integrity checks, explainable rejection output, and automated regression coverage. |
-| **[Azure Operations & Governance Lab](https://github.com/bmetcalf21/azure-ops-lab)** | Reproducible Azure infrastructure, governance, observability, CI validation, teardown automation, incident-style documentation, and captured deployment evidence. |
-
-## Current focus
-
-- Context and harness engineering for reliable AI workflows
-- Document-grounded assistants with business-specific knowledge and escalation rules
-- Structured-output evaluation and citation guardrails for bounded assistants
-- Developer tools that make automation easier to inspect, operate, and trust
-
-## Engineering approach
-
-1. Model the real workflow and its failure modes.
-2. Automate the repeatable work.
-3. Keep consequential judgment behind explicit review or approval.
-4. Emit evidence another person can inspect and reproduce.
+| **[Data Integrity Validator](https://github.com/bmetcalf21/data-integrity-validator)** | Turns messy CSV feeds into cleaned datasets plus a list of rejected rows with the reason for each. Python/pandas with automated tests. |
+| **[Support Operations Workflow Pack](https://github.com/bmetcalf21/support-qa-evidence-pack)** | Works out when a support assistant should answer, ask a clarifying question, or hand off to a person. Includes a local AI harness, citation checks, and a tested evaluator. |
+| **[Azure Operations & Governance Lab](https://github.com/bmetcalf21/azure-ops-lab)** | Reproducible deployment, monitoring and teardown for a small Azure workload, with CI validation. |
 
 [LinkedIn](https://www.linkedin.com/in/brandonfmetcalf)
