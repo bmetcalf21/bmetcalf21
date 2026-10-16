@@ -12,7 +12,7 @@ Most of my work now runs like a small product team with AI agents as the enginee
 - **Grocery price comparison for Argentina.** I'm building a free, phone-first page that compares supermarket prices using the government's daily price data. A quick spike showed some chains' promotions can't be read publicly, so the first version shows their shelf prices and leaves those offers for later instead of waiting on them.
 - **The system my agents work in.** Work goes out as small tasks on a board. Written rules set what agents can decide on their own and what comes to me, like spending or anything public. Review gets stricter as the risk goes up, and nothing counts as done until it's verified where it runs. I'm running two versions side by side, one with custom integrations and one built only from maintained tools and plugins, to see which custom pieces are worth their upkeep.
 
-Source code and client material for these stay private. Happy to walk through any of them.
+Source code and client material for these stay private. Happy to talk about or discuss any of them.
 
 ## Team experience
 
